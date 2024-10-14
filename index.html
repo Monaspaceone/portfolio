@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Maria Soledad Oscar</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="img/paper.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega un archivo CSS si es necesario -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__title">Lic. Maria Soledad Oscar</h2>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#sobre-mi">Sobre mí</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#formacion">Formación</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#proyectos">Proyectos</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#hobbies">Hobbies</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#form">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__description">Puedes encontrarme en las siguientes plataformas:</p>
+            <ul class="contact__list">
+                <li class="contact__item"><i class="fa-brands fa-github"></i><a class="contact__link" href="https://github.com" target="_blank"> GitHub</a></li>
+                <li class="contact__item"><i class="fa-brands fa-linkedin"></i><a class="contact__link" href="https://linkedin.com/in/maria-soledad-oscar" target="_blank"> LinkedIn</a></li>
+                <li class="contact__item"><i class="fa-brands fa-google-drive"></i><a class="contact__link" href="https://docs.google.com/document/d/1RsP46j62YOV43x_rreQ8A_qtlG1Eze32/edit?usp=drive_link&ouid=105444409954853283877&rtpof=true&sd=true" target="_blank"> Currículum</a></li>
+            </ul>
+            <img class="contact__image" src="img/usuario.webp" alt="Foto persona de portfolio">
+        </section>
+
+        <section class="about" id="sobre-mi">
+            <h3 class="about__title">Sobre mí</h3>
+            <p class="about__description">
+                Hola! Soy María Soledad Oscar, una desarrolladora web en formación, apasionada por la programación y el diseño. Actualmente, estoy estudiando programación Full Stack con JavaScript, Node.js, Express y Multer. He trabajado en varios proyectos que abarcan desde aplicaciones web hasta la creación de interfaces atractivas, siempre con un enfoque en la usabilidad y la estética.
+                Mis habilidades incluyen HTML, CSS y JavaScript, y la biblioteca React. Me gusta mantenerme actualizada con las últimas tendencias y tecnologías del desarrollo web. Creo firmemente en la importancia de la colaboración y la comunicación abierta, y siempre busco aprender de cada proyecto en el que participo.
+                Fuera del mundo de la tecnología, disfruto del arte en diversas formas. Me encantan las artes visuales, lo que me inspira a crear diseños innovadores y visualmente atractivos. Amo los desafíos y trabajar en grupo.
+                Si te gustaría trabajar conmigo, compartir ideas o simplemente charlar sobre tecnología y diseño, ¡no dudes en contactarme!
+            </p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <div class="skills__icons">
+                <img src="img/html.svg" alt="logo HTML" class="skills__icon">
+                <img src="img/css.svg" alt="logo CSS" class="skills__icon">
+                <img src="img/js.png" alt="logo JavaScript" class="skills__icon">
+                <img src="img/react.svg" alt="logo React" class="skills__icon">
+                <img src="img/figma4.png" alt="logo figma4" class="skills__icon">
+                <img src="img/github.svg" alt="logo Github" class="skills__icon">
+                <img src="img/nodejs3.png"alt="logo NodeJS" class="skills__icon"> 
+                <img src="img/mysql.png"alt="logo NodeJS" class="skills__icon"> 
+            </div>
+        </section>
+        
+
+        <section class="education" id="formacion">
+            <h3 class="education__title">Formación Académica</h3>
+                <table class="education__description">
+                    <tbody>
+                        <tr> 
+                            <td><i class="fa-solid fa-graduation-cap"></i>Licenciatura en Psicología   </td>
+                            <td> Universidad del Museo Social Argentino</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-graduation-cap"></i>Martillera Pública   </td>
+                            <td> Universidad Siglo 21</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-graduation-cap"></i>Curso de Full Stack Development   </td>
+                            <td> Codo a Codo 4.0</td>
+                        </tr>
+                    
+                    </tbody>
+                </table>        
+        </section>
+
+        <section class="projects" id="proyectos">
+            <h3 class="projects__title">Proyectos</h3>
+            <p class="projects__description"><a href="https://sj-indumentaria.netlify.app/index.html" target="_blank">Página de venta de indumentaria, con base de datos relacional</a></p>
+        </section>
+
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+            <ul class="hobbies__description">
+                <li><i class="fa-solid fa-palette"></i> Artes Visuales: dibujo, pintura, pirograbado, mosaiquismo.</li>
+                <li><i class="fa-solid fa-leaf"></i> Naturaleza y ecología</li>
+                <li><i class="fa-solid fa-person-running"></i> Alimentación y deporte</li>
+            </ul>
+        </section>
+        <section class="form" id="form">
+            <h3 class="form__title">Formulario de contacto</h3>
+            <br>
+           
+            <form action="#" method="post">
+                <div class="form__group">
+                    <label class="form__label" for="nombre">Nombre:</label>
+                    <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <br>
+        
+                <div class="form__group">
+                    <label class="form__label" for="email">Correo Electrónico:</label>
+                    <input class="form__input" type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+                </div>
+                <br>
+        
+                <div class="form__group">
+                    <label class="form__label" for="razones">Razones de Contacto:</label>
+                    <textarea class="form__textarea" id="razones" name="razones" placeholder="  ..." required></textarea>
+                </div>
+                <br>
+        
+                <button class="form__button" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Desarrollado por Maria Soledad Oscar - 2024</p>
+    </footer>
+</body>
+</html>
